@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>4
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery-script.js"></script>
+</head>
+
+<body>
+    <div id="resume-container" class="container">
+        <!--*******************************
+                Header section
+        *********************************** -->
+        <div id="mypage-header" class="text-center">
+            <header id="header-content">
+                <h1 id="header-title" class="mt-4">Sivakrishna Mukku</h1>
+            </header>
+        </div>
+
+        <!--*******************************
+                Main section
+        *********************************** -->
+        <main id="mypage-center-content">
+            <div class="row my-5">
+                <nav class="col-sm-2 col-12 nav-container">
+                    <ul class="nav nav-tabs flex-sm-column flex-row w-100 border-0">
+                        <li class="nav-item py-4 flex-fill">
+                        <button class="nav-link active" data-toggle="tooltip" title="click here for objective" data-bs-toggle="tab" data-bs-target="#objective" type="button">
+                            <i class="fa fa-bullseye mx-2"></i> <span class="d-none d-lg-inline">Objective</span>
+                        </button>
+                        </li>
+                        <li class="nav-item py-4 flex-fill">
+                        <button class="nav-link" data-toggle="tooltip" title="click here for education" data-bs-toggle="tab" data-bs-target="#education" type="button">
+                            <i class="fa fa-graduation-cap mx-2"></i> <span class="d-none d-lg-inline">Education</span>
+                        </button>
+                        </li>
+                        <li class="nav-item py-4 flex-fill">
+                        <button class="nav-link" data-toggle="tooltip" title="click here for skills" data-bs-toggle="tab" data-bs-target="#projects" type="button">
+                            <i class="fa fa-code mx-2"></i></i> <span class="d-none d-lg-inline">Skills</span>
+                        </button>
+                        </li>
+                        <li class="nav-item py-4 flex-fill">
+                        <button class="nav-link" data-toggle="tooltip" title="click here for projects" data-bs-toggle="tab" data-bs-target="#certifications" type="button">
+                             <i class="fa fa-project-diagram mx-2"></i> <span class="d-none d-lg-inline">Projects</span>
+                        </button>
+                        </li>
+                    </ul>
+                </nav>
+
+
+                <div class="tab-content d-flex align-items-center col-sm-10 col-12 middle-section-content">
+                    <div class="tab-pane fade show active mt-4 mt-sm-0" id="objective" role="tabpanel">
+                        <p class="text">
+                            Software developer fresher with hands-on experience in building full stack
+                            applications using Java, Spring Boot, React and MySQL. Quick learner, problem
+                            solver, and collaborative team player eager to contribute to innovative projects.
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="education" role="tabpanel">
+                        <ol class="list-content">
+                            <li class="my-4">
+                                <strong class="list-content-title">B.Tech in Computer Science</strong>
+                                <p class="text">
+                                    I completed my Bachelor of Technology in Computer Science from Narayana
+                                    Engineering College (2020-2024) with a GPA of 7.6.
+                                </p>
+                            </li>
+                            <li class="my-4">
+                                <strong class="list-content-title">Intermediate</strong>
+                                <p class="text">
+                                    I pursued my intermediate education at Narayana Junior College (2018-2020),
+                                    where I got a GPA of 9.6.
+                                </p>
+                            </li>
+                            <li class="my-4">
+                                <strong class="list-content-title">Matriculation</strong>
+                                <p class="text">
+                                    I completed my schooling at Don Bosco English Medium High School in 2018
+                                    with a GPA of 9.8.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="tab-pane fade" id="projects" role="tabpanel">
+                        <p class="text">
+                            Core Java, HTML, CSS, MySQL, JavaScript, Servlets, JSP, JDBC, Spring, Spring
+                            Boot, Hibernate.
+                        </p>
+                    </div>
+
+                    <div class="tab-pane fade" id="certifications" role="tabpanel">
+                        <ol class="list-content">
+                            <li class="my-4">
+                                <strong class="list-content-title">Food Delivery Application</strong>
+                                <p class="text">
+                                Developed a web-based food delivery application that allows users to browse
+                                restaurants, view menus, place orders, and view their order history. The app
+                                includes user authentication, a shopping cart, and a checkout system.
+                                </p>
+                            </li>
+                            <li class="my-4">
+                                <strong class="list-content-title">Smart Expense Tracker</strong>
+                                <p class="text">
+                                Built an expense tracker application to help users efficiently record and
+                                monitor their daily spending. Developed with Spring Boot, React, and MySQL.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!--*******************************
+                Footer section
+        *********************************** -->
+        <div id="mypage-footer" class="text-center mb-5">
+            <footer id="mypage-footer-content" class="mt-4">
+                <h2 id="footer-title">Contact Details</h2>
+                <p class="footer-content">
+                    Email : sivakrishnam356@gmail.com
+                </p>
+                <p id="phonenumber" class="footer-content">
+                    Phone : +91 7337074710
+                </p>
+            </footer>
+        </div>
+
+
+        <!-- Bootstrap Modal -->
+        <div class="modal" id="bootstrap-modal" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title" id="customModalLabel">Notification</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <div class="modal-body">
+                Animation completed
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="cancel-btn" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="ok-btn" data-bs-dismiss="modal">OK</button>
+            </div>
+            
+            </div>
+        </div>
+        </div>
+
+
+
+        <!--*******************************
+            Javascript Module
+        *********************************** -->
+
+        <!--*******************************
+            First section Finding Max
+        *********************************** -->
+
+        <div id="js-container" class="d-flex flex-column align-items-center justify-content-center my-5">
+            <p class="card-title mb-3">Find Max Number</p>
+            <div class="card-content card-color p-5 mb-5 rounded-3">
+                <form>
+
+                    <label for="first-number" class="label-text text form-label ml-2">First Number </label><span
+                        class="asterisk">*</span><br>
+                    <input type="number" id="first-number" name="first-number" required placeholder="Enter first number"
+                        class="input-box form-control-lg w-100"><br>
+
+                    <label for="second-number" class="label-text text form-label mt-2">Second Number </label><span
+                        class="asterisk">*</span><br>
+                    <input type="number" id="second-number" required placeholder="Enter second number"
+                        class="input-box form-control-lg w-100"><br>
+
+                    <button type="button" class="card-button btn-lg px-3 py-2 w-100 rounded-3 my-4" onclick="max_of_numbers()">Find Max</button>
+                </form>
+
+                <div class="card-output mt-2 text-center">
+                    <strong id="max-value-section" class="output-section"></strong>
+                    <strong id="error" class="error-message"></strong>
+                </div>
+            </div>
+
+            <!--*******************************
+                Second section Reversing String
+            *********************************** -->
+            <p class="card-title mb-3">Reverse a string</p>
+            <div class="card-content card-color p-5 mb-5 rounded-3">
+                <form>
+                    <label for="input-string" class="label-text text form-label">Enter a string</label><span
+                        class="asterisk">*</span><br>
+                    <input type="text" id="input-string" name="input-string" required placeholder="Enter a string"
+                        class="input-box form-control-lg w-100"  list="string-suggestions"><br>
+
+                    <datalist id="string-suggestions">
+                        <option value="ramu">
+                        <option value="siva">
+                        <option value="uma">
+                        <option value="ramesh">
+                        <option value="srilatha">
+                    </datalist>
+
+                    <button type="button" class="card-button btn-lg px-3 py-2 w-100 rounded-3 my-4" onclick="reverse_string()">Reverse</button>
+                </form>
+
+                <div class="card-output mt-2 text-center">
+                    <strong id="reversed-string-section" class="output-section"></strong>
+                    <strong id="error-reverse-string" class="error-message"></strong>
+                </div>
+            </div>
+
+            <!--*******************************
+                Third section Finding Longest Word
+            *********************************** -->
+
+            <p class="card-title mb-3">Find Largest Word In A String</p>
+            <div class="card-content card-color p-5 mb-5 b rounded-3">
+                <form>
+                    <label for="user-string" class="label-text text form-label">Enter a string</label><span
+                        class="asterisk">*</span><br>
+                    <input type="text" id="user-string" name="user-string" required placeholder="Ex: ramu,siva,uma"
+                        class="input-box form-control-lg w-100"><br>
+                    <button type="button" onclick="find_largest_word()" class="card-button btn-lg px-3 py-2 w-100 rounded-3 my-4">Find Largest Word</button>
+                </form>
+
+
+                <div class="card-output mt-2 text-center">
+                    <strong id="largest-word-section" class="output-section"></strong>
+                    <strong id="error-largest-word" class="error-message"></strong>
+                </div>
+            </div>
+
+            <!--*******************************
+                Fourth section Creating cookie
+            *********************************** -->
+
+            <p class="card-title mb-3">Resume Builder</p>
+            <div class="card-content card-color p-5 mb-5 rounded-3">
+                <form>
+                    <label for="username" class="label-text text form-label">Enter your name</label><span class="asterisk">*</span><br>
+                    <input type="text" id="username" name="username" required placeholder="Enter your name"
+                        class="input-box form-control-lg w-100"><br>
+
+                    <label for="phone-number" class="label-text text form-label mt-2">Enter your number</label><span
+                        class="asterisk">*</span><br>
+                    <input type="number" id="phone-number" name="phone-number" required placeholder="Enter your number"
+                        class="input-box form-control-lg w-100"><br>
+                    <button type="button" onclick="resume_builder()" class="card-button  btn-lg px-3 py-2 w-100 rounded-3 my-4">Create Resume</button>
+                </form>
+
+                <div class="card-output mt-2 text-center">
+                    <strong id="output-resume-builder" class="output-section"></strong>
+                    <strong id="error-resume" class="error-message"></strong>
+                </div>
+            </div>
+
+        </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
