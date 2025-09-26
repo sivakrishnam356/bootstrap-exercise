@@ -1,14 +1,15 @@
-#mypage-header{
+/* ===== HEADER ===== */
+#mypage-header {
     background-color: #748873;
     color: #FFFFFF;
-    height: 10px;
     overflow: hidden;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-#mypage-footer{
+/* ===== FOOTER ===== */
+#mypage-footer {
     background-color: #748873;
     color: #F8F9FA;
     min-height: 10px;
@@ -20,45 +21,50 @@
   display: none;
 }
 
-.card-content{
+/* ===== CARD ===== */
+.card-content {
     border: 2px solid #748873;
     background-color: #F8F9FA;
     color: #2C3E50;
 }
 
-#resume-container{
+/* ===== RESUME CONTAINER ===== */
+#resume-container {
     color: #2C3E50;
     background-color: #FFFFFF;
 }
 
-.nav-link{
-    color: #748873 !important;
-    font-weight: 500 !important;
-    background-color: transparent !important;
+/* ===== NAVIGATION ===== */
+#mypage-center-content .nav-item .nav-link {
+    color: #748873 ;
+    font-weight: 500 ;
+    background-color: transparent;
 }
 
-#mypage-center-content .nav-link.active{
-    border-color: transparent !important;
-    color: #fff !important;
-    background-color: #198754 !important;
+#mypage-center-content .nav-link.active {
+    border-color: transparent ;
+    color: #fff ;
+    background-color: #198754 ;
     border-radius: 6px; 
 }
 
-.list-content-title{
+/* ===== TITLES ===== */
+.list-content-title {
    color: #5A6B5A;
    font-size: 20px;
 }
-s
-.middle-section-content{
+
+#resume-container .card-title {
+    color: #748873 ;
+    font-size: 25px ;
+}
+
+/* ===== CONTENT SECTIONS ===== */
+.middle-section-content {
     background-color: #F8F9FA;
 }
 
-.text{
+.middle-section-content .text {
     color: #374151;
     font-size: 20px;
-}
-
-.card-title{
-    color: #748873 !important;
-    font-size: 25px !important;
 }
